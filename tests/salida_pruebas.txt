@@ -1,0 +1,479 @@
+
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion:   Nombre de la ciudad:   [OK] Ciudad 'Bogota' registrada.
+
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion:   Nombre de la ciudad:   [!] La ciudad 'Bogota' ya existe. No se registro de nuevo.
+
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion:   Nombre de la ciudad:   [OK] Ciudad 'Medellin' registrada.
+
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion:   Nombre de la ciudad:   [OK] Ciudad 'Cali' registrada.
+
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion:   - Bogota (0 conexiones)
+  - Medellin (0 conexiones)
+  - Cali (0 conexiones)
+  Total: 3
+
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   Ciudad A:   Ciudad B:   Distancia (km):   [OK] Operacion realizada.
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   Ciudad A:   Ciudad B:   Distancia (km):   [!] Distancia invalida: debe ser un numero mayor que 0.
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   Ciudad A:   Ciudad B:   Distancia (km):   [!] Entrada invalida: se esperaba un numero (ej. 125.5).
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   Ciudad A:   Ciudad B:   Distancia (km):   [OK] Operacion realizada.
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   Ciudad:   Vecinos de Bogota:
+    -> Cali (460 km)
+    -> Medellin (415 km)
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   Bogota <-> Cali : 460 km
+  Bogota <-> Medellin : 415 km
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- PASAJEROS ---
+ 1. Insertar pasajero
+ 2. Buscar por ID
+ 3. Actualizar pasajero
+ 4. Eliminar pasajero
+ 5. Listar pasajeros
+ 0. Volver
+Opcion:   ID a eliminar:   [!] No existe un pasajero con ID 99. No se elimino nada.
+
+--- PASAJEROS ---
+ 1. Insertar pasajero
+ 2. Buscar por ID
+ 3. Actualizar pasajero
+ 4. Eliminar pasajero
+ 5. Listar pasajeros
+ 0. Volver
+Opcion:   ID (entero positivo):   Nombre:   Edad (0-120):   [OK] Pasajero 1 registrado.
+
+--- PASAJEROS ---
+ 1. Insertar pasajero
+ 2. Buscar por ID
+ 3. Actualizar pasajero
+ 4. Eliminar pasajero
+ 5. Listar pasajeros
+ 0. Volver
+Opcion:   ID (entero positivo):   [!] Ya existe un pasajero con ID 1. No se inserto.
+
+--- PASAJEROS ---
+ 1. Insertar pasajero
+ 2. Buscar por ID
+ 3. Actualizar pasajero
+ 4. Eliminar pasajero
+ 5. Listar pasajeros
+ 0. Volver
+Opcion:   ID 1 | Ana | 20 anios
+  Total: 1
+
+--- PASAJEROS ---
+ 1. Insertar pasajero
+ 2. Buscar por ID
+ 3. Actualizar pasajero
+ 4. Eliminar pasajero
+ 5. Listar pasajeros
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion:   [!] La cola esta vacia: no hay solicitudes por atender.
+
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion:   ID del pasajero:   Ciudad de origen:   Ciudad de destino:   [OK] Solicitud encolada (posicion 1). Ruta: Bogota -> Medellin (415 km)
+
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion:   ID del pasajero:   Ciudad de origen:   Ciudad de destino:   [OK] Solicitud encolada (posicion 2). Ruta: Medellin -> Bogota -> Cali (875 km)
+
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion:   1. Pasajero 1: Bogota -> Medellin
+  2. Pasajero 1: Medellin -> Cali
+  Total en cola: 2
+
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion:   [OK] Atendida: Ana (ID 1), Bogota -> Medellin. Registrada en el historial.
+
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion:   [OK] Atendida: Ana (ID 1), Medellin -> Cali. Registrada en el historial.
+
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion:   [!] La cola esta vacia: no hay solicitudes por atender.
+
+--- COLA DE SOLICITUDES ---
+ 1. Encolar solicitud de viaje
+ 2. Atender solicitud (frente)
+ 3. Mostrar frente
+ 4. Mostrar toda la cola
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- HISTORIAL DE VIAJES ATENDIDOS ---
+ 1. Ver historial (mas reciente primero)
+ 2. Ver ultimo viaje atendido
+ 3. Borrar historial
+ 0. Volver
+Opcion:   1. Ana (ID 1): Medellin -> Cali
+  2. Ana (ID 1): Bogota -> Medellin
+  Total atendidos: 2
+
+--- HISTORIAL DE VIAJES ATENDIDOS ---
+ 1. Ver historial (mas reciente primero)
+ 2. Ver ultimo viaje atendido
+ 3. Borrar historial
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion:   Ciudad a eliminar:   [OK] Ciudad eliminada junto con 2 ruta(s) que la conectaban (sin referencias colgantes).
+
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion:   - Medellin (0 conexiones)
+  - Cali (0 conexiones)
+  Total: 2
+
+--- CIUDADES ---
+ 1. Agregar ciudad
+ 2. Eliminar ciudad
+ 3. Listar ciudades
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   (no hay rutas registradas)
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion:   Ciudad:   Medellin no tiene conexiones.
+
+--- RUTAS ---
+ 1. Agregar ruta
+ 2. Eliminar ruta
+ 3. Consultar vecinos de una ciudad
+ 4. Listar todas las rutas
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion:   [!] Opcion invalida. Elija un numero entre 0 y 8.
+
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- PASAJEROS ---
+ 1. Insertar pasajero
+ 2. Buscar por ID
+ 3. Actualizar pasajero
+ 4. Eliminar pasajero
+ 5. Listar pasajeros
+ 0. Volver
+Opcion:   ID (entero positivo):   [!] Entrada invalida: se esperaba un numero entero.
+
+--- PASAJEROS ---
+ 1. Insertar pasajero
+ 2. Buscar por ID
+ 3. Actualizar pasajero
+ 4. Eliminar pasajero
+ 5. Listar pasajeros
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- GUARDAR / CARGAR ---
+ 1. Guardar datos
+ 2. Cargar datos (reemplaza los actuales)
+ 0. Volver
+Opcion:   Archivo [Enter = sitrac_datos.txt]:   [OK] Datos guardados en 'sitrac_datos.txt'.
+
+--- GUARDAR / CARGAR ---
+ 1. Guardar datos
+ 2. Cargar datos (reemplaza los actuales)
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+--- REPORTES ---
+ 1. Resumen general
+ 2. Todas las rutas
+ 3. Pasajeros registrados
+ 0. Volver
+Opcion:   Ciudades registradas : 2
+  Rutas registradas    : 0 (0 km en total)
+  Pasajeros            : 1
+  Solicitudes en cola  : 0
+  Viajes atendidos     : 2
+  Ciudad mas conectada : Medellin (0 conexiones)
+  Ciudades aisladas    : 2
+  Edad promedio        : 20 anios
+
+--- REPORTES ---
+ 1. Resumen general
+ 2. Todas las rutas
+ 3. Pasajeros registrados
+ 0. Volver
+Opcion: 
+=====================================================
+  SITRAC - Transporte y Gestion de Rutas
+=====================================================
+ 1. Ciudades
+ 2. Rutas
+ 3. Pasajeros
+ 4. Cola de solicitudes
+ 5. Historial
+ 6. Busquedas
+ 7. Reportes
+ 8. Guardar / cargar
+ 0. Salir
+Opcion: 
+Hasta pronto.
