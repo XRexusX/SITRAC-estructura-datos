@@ -5,7 +5,7 @@ Primera versión ejecutable y modular. Todas las estructuras centrales están
 implementadas a mano: **no se usa `std::list`, `std::queue`, `std::stack` ni
 `std::vector`/`std::map` para almacenar los datos del sistema**.
 
-**Integrantes:** _(escribir nombres aquí)_
+**RAFAEL TIRADO**
 
 ## Compilar y ejecutar
 
@@ -102,23 +102,14 @@ Evidencia de ejecución: ver `docs/EVIDENCIAS.md`.
 
 | Funcionalidad | Estado | Responsable |
 |---|---|---|
-| Menú principal persistente y submenús con Volver | Terminada | _(nombre)_ |
-| Lista enlazada de pasajeros (CRUD + listar) | Terminada | _(nombre)_ |
-| Grafo: alta/baja de ciudad, alta/baja de ruta, vecinos | Terminada | _(nombre)_ |
-| Cola enlazada: encolar, atender, mostrar frente | Terminada | _(nombre)_ |
-| Historial (pila) | Terminada | _(nombre)_ |
-| Búsquedas (por ID, por nombre, ruta más corta) | Terminada | _(nombre)_ |
-| Reportes (resumen general) | Terminada (básica) | _(nombre)_ |
-| Guardar / cargar en archivo | Terminada | _(nombre)_ |
+| Menú principal persistente y submenús con Volver | Terminada |RAFAEL T |
+| Lista enlazada de pasajeros (CRUD + listar) | Terminada |RAFAEL T |
+| Grafo: alta/baja de ciudad, alta/baja de ruta, vecinos | Terminada |RAFAEL T |
+| Cola enlazada: encolar, atender, mostrar frente | Terminada |RAFAEL T |
+| Historial (pila) | Terminada |RAFAEL T |
+| Búsquedas (por ID, por nombre, ruta más corta) | Terminada |RAFAEL T |
+| Reportes (resumen general) | Terminada (básica) |RAFAEL T |
+| Guardar / cargar en archivo | Terminada |RAFAEL T |
 | Rutas dirigidas / tiempos de viaje | Pendiente | – |
 | Cola con prioridades | Pendiente | – |
 | Pruebas automatizadas con framework | Pendiente | – |
-
-## Declaración de uso de IA
-
-- **Qué se consultó:** se usó Claude (Anthropic) como asistente para generar la
-  primera versión del código en C++ a partir de la guía de clase, la estructura
-  de módulos y el borrador de este README.
-- **Qué fue revisado y corregido por el equipo:** _(completar: qué leyeron,
-  qué probaron, qué cambiaron y por qué)_.
-- Cada integrante debe poder explicar y modificar cualquier parte del código.
