@@ -36,5 +36,4 @@ Ejecución: `sitrac.exe < tests\entrada_pruebas.txt > tests\salida_pruebas.txt`
 3. Distancia no numérica (`abc`) y negativa (`-5`) → rechazadas con mensajes distintos.
 4. ID duplicado / ciudad duplicada → rechazados sin crear nodos.
 
-> Para la entrega, agreguen además capturas de pantalla propias de la ejecución
-> interactiva (la guía pide evidencia de su propia ejecución).
+
